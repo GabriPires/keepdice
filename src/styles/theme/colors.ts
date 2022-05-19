@@ -15,4 +15,7 @@ export const colors = {
   gray: {
     ...baseColors.gray,
   },
+  dark: {
+    500: '#22242E',
+  },
 };
