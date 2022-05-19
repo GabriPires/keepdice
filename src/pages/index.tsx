@@ -4,7 +4,7 @@ import type { NextPage } from 'next';
 const Home: NextPage = () => {
   return (
     <Flex
-      h={'100vh'}
+      h={'calc(100vh - 4rem)'}
       flexDir={'column'}
       alignItems={'center'}
       justifyContent={'center'}

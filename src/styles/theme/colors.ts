@@ -8,6 +8,11 @@ export const colors = {
   },
   purple: {
     ...baseColors.purple,
+    500: '#3A015C',
+    600: '#32004F',
+    700: '#220135',
+    800: '#190028',
+    900: '#11001C',
   },
   red: {
     ...baseColors.red,
