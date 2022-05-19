@@ -12,7 +12,9 @@ export const Header = () => {
       px={{ base: 4, md: 24 }}
       bg={'purple.800'}
     >
-      <Heading>KeepDice</Heading>
+      <Heading cursor={'pointer'} onClick={() => push('/')}>
+        KeepDice
+      </Heading>
       <Button onClick={() => push('/signup')}>Entrar</Button>
     </Flex>
   );

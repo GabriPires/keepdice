@@ -12,6 +12,16 @@ const Home: NextPage = () => {
     >
       <Heading>KeepDice</Heading>
       <Text>Coming soon...</Text>
+      <Text fontSize={'xs'} mt={4}>
+        Feito com ❤️ pelo{' '}
+        <a
+          href={'https://github.com/GabriPires'}
+          target={'_blank'}
+          rel={'noreferrer'}
+        >
+          GabriPires
+        </a>
+      </Text>
     </Flex>
   );
 };
