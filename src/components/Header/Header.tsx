@@ -1,6 +1,9 @@
 import { Button, Flex, Heading } from '@chakra-ui/react';
+import { useRouter } from 'next/router';
 
 export const Header = () => {
+  const { push } = useRouter();
+
   return (
     <Flex
       h={16}
@@ -10,7 +13,7 @@ export const Header = () => {
       bg={'purple.800'}
     >
       <Heading>KeepDice</Heading>
-      <Button>Entrar</Button>
+      <Button onClick={() => push('/signup')}>Entrar</Button>
     </Flex>
   );
 };
